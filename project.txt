@@ -1,2 +1,4 @@
 This is bin. This is a project for testing Git
 modified
+
+modified again
