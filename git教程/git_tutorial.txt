@@ -39,3 +39,23 @@ git reset HEAD {filename}: unstage a file.
 
 (useful linux command)
 ls -la
+
+/************************************/
+create remote repository in github
+
+1. create github account. create new repository. 
+
+2. go to local git repository, run:
+- ssh-keygen -t rsa -C "youremail@example.com"
+
+3. check user main folder, e.g. 'bin_sorrowz'/.ssh, find 2 key files. copy *.pub file's content,
+   go to github/setting/ssh key -> add key and save
+
+3. go to local git repository, run:
+   - git remote add origin git@github.com:michaelliao/learngit.git
+
+4. push local content to remote repository:
+   - git push -u origin master
+
+5. 	clone a local repository -> run:
+   - git clone git@github.com:michaelliao/gitskills.git
