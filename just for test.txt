@@ -4,5 +4,11 @@ just for test. 2016 05 11
 - modified by lp4bxu1dsy
 
 -modified by bin_sorrowz
+<<<<<<< HEAD
 
 - modify by lp4bxu1dsy again
+=======
+>>>>>>> Stashed changes
+
+-- modify again by bin-sorrowz
+>>>>>>> 4c455c455054ecc6eb8229fd67dbe95913021750
