@@ -2,6 +2,7 @@ just for test. 2016 05 11
 <<<<<<< Updated upstream
 
 - modified by lp4bxu1dsy
-=======
+
 -modified by bin_sorrowz
->>>>>>> Stashed changes
+
+- modify by lp4bxu1dsy again
