@@ -1,0 +1,41 @@
+git --version: check git version
+
+git config --global user.name "xu bin" : change user name
+git config --global user.email "xubinqz@gmail.com" : change user email
+git config --list : list all the setting of git
+
+clear: clear the screen
+
+git config user.email : show the info, in this case -- email
+
+git help ~{parameter}. e.g. git help commit
+
+git init : initialize git in a folder
+
+git add . : add all changes
+git add second.txt : add file to staging area.
+
+git diff: doing merge
+git diff --staged: compared with staged version
+
+git commit -m {comments}
+git commit -am {comments} : commit directly to repository without staging
+
+git log : show the log of, for instance, commit
+git log --author="xu bin" : filter the log according to user.
+
+git checkout $commit~1 filename: restore deleted file of a commit
+git checkout -- {filename}
+
+git rm {filename} : remove file
+
+rename file: change name --> add new name file --> rm old name file.
+or easier way:
+git mv {old file name} {new file name};
+
+git status: track file to commit
+
+git reset HEAD {filename}: unstage a file.
+
+(useful linux command)
+ls -la
