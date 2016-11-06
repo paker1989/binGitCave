@@ -1,0 +1,9 @@
+1. go:
+https://docs.npmjs.com/getting-started/installing-node
+
+2. download node js, then run:
+ - node -v
+ then run:
+ - npm install npm@latest -g
+
+
